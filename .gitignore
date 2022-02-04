@@ -1,0 +1,14 @@
+# Ignore db config files
+/config*.yaml
+
+# Dependency directories
+/node_modules/
+
+# Output directory
+/dist/
+
+# Generated code
+/gen/
+
+# Log files
+*.log

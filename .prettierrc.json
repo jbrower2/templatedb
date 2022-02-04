@@ -1,0 +1,15 @@
+{
+	"quoteProps": "consistent",
+	"singleQuote": true,
+	"trailingComma": "all",
+	"useTabs": true,
+	"printWidth": 120,
+	"overrides": [
+		{
+			"files": "*.json",
+			"options": {
+				"printWidth": 0
+			}
+		}
+	]
+}

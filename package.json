@@ -1,0 +1,39 @@
+{
+  "name": "templatedb",
+  "version": "0.0.1",
+  "description": "NPM package containing a database of blank page sizes and layouts for use in printed materials",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node dist/templatedb.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbrower2/templatedb.git"
+  },
+  "keywords": [
+    "layout",
+    "page",
+    "pageSize",
+    "print",
+    "publisher",
+    "size",
+    "template"
+  ],
+  "author": {
+    "name": "Jeff Brower",
+    "email": "templatedb@jeffbrower.com",
+    "url": "https://github.com/jbrower2"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbrower2/templatedb/issues"
+  },
+  "homepage": "https://github.com/jbrower2/templatedb#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-regex": "^1.8.0",
+    "typescript": "^4.4.2"
+  }
+}
